@@ -1,0 +1,26 @@
+.mobileMenuList {
+    width: 100%;
+    background-color: white;
+}
+.mobileMenuItem {
+    color: #787878;
+    display: inline-block;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobileMenuItem svg {
+    width: 12px;
+    height: auto;
+}
+.mobileMenuItem:hover {
+    background-color: #F2F2F2;
+    color: #404040;
+    outline: none;
+}
