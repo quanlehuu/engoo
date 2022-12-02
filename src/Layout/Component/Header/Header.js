@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import MenuTopbar from "../MenuTopbar";
 import MenuTopbarMobile from "../MenuTopbarMobile";
 import styles from "./Header.module.scss";
@@ -25,14 +26,14 @@ function Header() {
                   />
               </svg>
             </span>
-            <a className={styles.menuLogo} href="#"><img src="https://assets.engoo.com/assets/shared/logo-afcf5bc87590b094c82dc99d288534c33b9543fca5dd57493426d6ad997ccaf1.svg" /></a>
+            <Link className={styles.menuLogo} to={"/"}><img src="https://assets.engoo.com/assets/shared/logo-afcf5bc87590b094c82dc99d288534c33b9543fca5dd57493426d6ad997ccaf1.svg" /></Link>
         </div>
         <div className={styles.menuTopbar}>
             <MenuTopbar />
             <div className={styles.registerBtn}>
-            <a href="#" className={styles.registerItemBtn}>
+            <Link to={"/register"} className={styles.registerItemBtn}>
                 Register
-            </a>
+            </Link>
             </div>
         </div>
       </div>

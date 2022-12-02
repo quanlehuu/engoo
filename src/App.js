@@ -1,19 +1,32 @@
 import "./App.css";
-import Header from "./Layout/Component/Header/Header"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ToggleChat from "./Layout/Component/ToggleChat";
-import Home from "./Pages/Home"
+import { publicRoutes } from "./Router";
+import DefaultLayout from "./Layout/Component/DefaultLayout";
 
 function App() {
   return (
-    <div className="wrapper">
-            <Header />
-            <ToggleChat/>
-            <div className="container">
-                <div className="content">
-                <Home/>
-                </div>
-            </div>
+    <Router>
+      <div>
+        <Routes>
+          {publicRoutes.map((route, index) => {
+            let Layout = DefaultLayout;
+            const Page = route.component;
+            return (
+              <Route
+                key={index}
+                path={route.path}
+                element={
+                  <Layout>
+                    <Page />
+                  </Layout>
+                }
+              />
+            );
+          })}
+        </Routes>
       </div>
+    </Router>
   );
 }
 

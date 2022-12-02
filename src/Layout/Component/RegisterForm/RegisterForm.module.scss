@@ -1,0 +1,179 @@
+.registerContainer {
+    max-width: 396px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.registerTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #404040;
+    line-height: 125%;
+    letter-spacing: 0.05rem;
+    padding: 0 5px;
+}
+.signChoice {
+    font-size: 24px;
+    letter-spacing: 0.05rem;
+}
+.RegisterForm {
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 1px;
+    padding: 42px;
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    line-height: 1.45;
+    letter-spacing: 0.05rem;
+}
+.signNow {
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+}
+.facebookBtn {
+    width: 100%;
+    border-radius: 99px;
+    justify-content: center;
+    background-color: rgb(73 103 173);
+    color: white;
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 12.5px;
+}
+.fbIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.fbIcon svg {
+    color: white;
+    max-width: 100%;
+}
+.differentChoice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 12.5px 0;
+    color: rgb(64, 64, 64);
+    letter-spacing: 0.8px;
+}
+.crossbar {
+    width: 15%;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+.RegisterFormItem {
+    padding: 12.5px 0;
+}
+.registerFormTitle {
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    padding-bottom: 0.5em;
+}
+.registerFormContent {
+    color: rgb(120, 120, 120);
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 2px;
+    background: white;
+    height: 30px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0px 0.5em;
+}
+.registerFormContent:focus {
+    outline: none;
+    border: 1px solid rgb(120, 120, 120);
+}
+.registerFormNote {
+    margin-top: 6px;
+    font-size: 13px;
+    color: rgb(120, 120, 120);
+    letter-spacing: 0.8px;
+}
+.highlight {
+    color: rgb(0, 157, 255);
+    cursor: pointer;
+}
+.manageLanguage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBtnItem {
+    letter-spacing: 0.8px;
+    background-color: #029AF9;
+    min-width: 96px;
+    padding: 13px 32px;
+    color: #ffffff;
+    border:  none;
+    outline: none;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.manageRules {
+    display: flex;
+    align-items: flex-start;
+}
+.checkboxItem {
+    margin-right: 0.3em;
+    margin-top: 0.2rem;
+}
+.registerRules {
+    font-size: 14px;
+    padding-left: 0.75em;
+    text-align: left;
+}
+.owner {
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    margin: 1em;
+    text-align: center;
+    font-size: 12px;
+}
+.eyeIcon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    stroke: none;
+    cursor: pointer;
+    outline: none;
+}
+.eyeIcon svg{
+    height: 1.2rem;
+    outline: none;
+}
+.managePassword {
+    position: relative;
+}
+.languageOption {
+    transition: all 200ms ease-in-out;
+    border-bottom: solid 4px transparent;
+    color: #787878;
+    display: inline-block;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    padding: 10px 10px;
+}
+.languageOption:hover {
+    background-color: #F2F2F2;
+    color: #404040;
+    outline: none;
+}

@@ -1,8 +1,10 @@
-import Header from "../../Layout/Component/Header/Header";
 import styles from "./Home.module.scss";
+import ToggleChat from "../../../Layout/Component/ToggleChat"
+
 function Home() {
   return (
     <div className={styles.container}>
+      <ToggleChat/>
       <div className={styles.headerBanner}>
         <img
           className={styles.bannerImg}
