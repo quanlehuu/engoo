@@ -1,5 +1,5 @@
 import styles from "./Home.module.scss";
-import ToggleChat from "../../../Layout/Component/ToggleChat"
+import ToggleChat from "../../component/ToggleChat"
 
 function Home() {
   return (

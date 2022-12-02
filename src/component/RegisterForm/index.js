@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import FacebookIcon from "../../../Access";
+import FacebookIcon from "../Icon/FacebookIcon";
 import styles from "./RegisterForm.module.scss";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";

@@ -1,6 +1,6 @@
 import styles from "./Register.module.scss"
-import RegisterForm from "../../../Layout/Component/RegisterForm"
-import Footer from "../../../Layout/Component/Footer";
+import RegisterForm from "../../component/RegisterForm"
+import Footer from "../../component/Footer";
 
 function Register() {
     return ( 

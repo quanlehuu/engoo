@@ -1,5 +1,5 @@
-import Home from "../Pages/Component/Home";
-import Register from "../Pages/Component/Register";
+import Home from "../pages/Home";
+import Register from "../pages/Register";
 import config from "../config"
 
 const publicRoutes = [

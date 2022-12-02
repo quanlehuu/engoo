@@ -1,8 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ToggleChat from "./Layout/Component/ToggleChat";
-import { publicRoutes } from "./Router";
-import DefaultLayout from "./Layout/Component/DefaultLayout";
+import { publicRoutes } from "./router";
+import DefaultLayout from "./component/DefaultLayout";
 
 function App() {
   return (
